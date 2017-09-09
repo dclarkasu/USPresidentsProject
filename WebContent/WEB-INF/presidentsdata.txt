@@ -1,45 +1,45 @@
-1,George Washington,(1789-1797),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTIwNjA4NjM0MDA1MzkwODYw/george-washington-9524786-1-402.jpg,party,fact 
-2,John Adams,(1797-1801),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTE1ODA0OTcxMjc3MzIxNzQx/john-adams-37967-1-402.jpg,party,fact 
-3,Thomas Jefferson,(1801-1809),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-TJ100.jpg,party,fact 
-4,James Madison,(1809-1817),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP04MAD.jpg,party,fact 
-5,James Monroe,(1817-1825),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP05MON.jpg,party,fact 
-6,John Quincy Adams,(1825-1829),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP06ADA.jpg,party,fact 
-7,Andrew Jackson,(1829-1837),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP07JAC.jpg,party,fact 
-8,Martin Van Buren,(1837-1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP08BUR-300x300.jpg,party,fact 
-9,William Henry Harrison,(1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP09WHH.jpg,party,fact 
-10,John Tyler,(1841-1845),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP10JT.jpg,party,fact 
-11,James K. Polk,(1845-1849),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-C091PP11KP.jpg,party,fact 
-12,Zachary Taylor,(1849-1850),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP12ZT.jpg,party,fact 
-13,Millard Fillmore,(1850-1853),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP13MF.jpg,party,fact 
-14,Franklin Pierce,(1853-1857),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP14FP.jpg,party,fact 
-15,James Buchanan,(1857-1861),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP15JB.jpg,party,fact
-16,Abraham Lincoln,(1861-1865),https://www.presidentialelection.com/wp-content/uploads/2017/03/LINCOLN208.jpg,party,fact 
-17,Andrew Johnson,(1865-1869),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP17AJ.jpg,party,fact 
-18,Ulysses S. Grant,(1869-1877),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP18USG.jpg,party,fact 
-19,Rutherford B. Hayes,(1877-1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP19RBH.jpg,party,fact 
-20,James A. Garfield,(1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP20JG.jpg,party,fact 
-21,Chester Arthur,(1881-1885),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPAUTHUR.jpg,party,fact 
-22,Grover Cleveland,(1885-1889),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,party,fact 
-23,Benjamin Harrison,(1889-1893),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARRISON.jpg,party,fact 
-24,Grover Cleveland,(1893-1897),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,party,fact 
-25,William McKinley,(1897-1901),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPMCKINLEY.jpg,party,fact 
-26,Theodore Roosevelt,(1901-1909),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTROOSEVELT.jpg,party,fact 
-27,William Howard Taft,(1909-1913),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTAFT.jpg,party,fact 
-28,Woodrow Wilson,(1913-1921),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPWILSON.jpg,party,fact 
-29,Warren G. Harding,(1921-1923),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARDING.jpg,party,fact 
-30,Calvin Coolidge,(1923-1929),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCOOLIDGE.jpg,party,fact 
-31,Herbert Hoover,(1929-1933),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHOOVER.jpg,party,fact 
-32,Franklin D. Roosevelt,(1933-1945),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPROOSEVELT.jpg,party,fact 
-33,Harry S. Truman,(1945-1953),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTRUMAN.jpg,party,fact 
-34,Dwight D. Eisenhower,(1953-1961),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPEISENHOWER.jpg,party,fact 
-35,John F. Kennedy,(1961-1963),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPKENNEDY.jpg,party,fact 
-36,Lyndon B. Johnson,(1963-1969),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPJOHNSON.jpg,party,fact 
-37,Richard Nixon,(1969-1974),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPNIXON.jpg,party,fact 
-38,Gerald Ford,(1974-1977),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPFORD.jpg,party,fact 
-39,Jimmy Carter,(1977-1981),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCARTER.jpg,party,fact 
-40,Ronald Reagan,(1981-1989),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPREAGAN.jpg,party,fact 
-41,George Bush,(1989-1993),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHWBUSH.jpg,party,fact 
-42,Bill Clinton,(1993-2001),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP42CLINTON.jpg,party,fact 
-43,George W. Bush,(2001-2009),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP43BUSH.jpg,party,fact 
-44,Barack Obama,(2009-2017),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP44OBAMA.jpg,party,fact 
-45,Donald Trump,(2017- ),https://petapixel.com/assets/uploads/2017/01/Donald_Trump_official_portraitt.jpg,party,fact
+1,George Washington,(1789-1797),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTIwNjA4NjM0MDA1MzkwODYw/george-washington-9524786-1-402.jpg,Independent,Some historians believe that Washington’s fondness for dark wine stained the fractures in his false teeth giving off the look of grainy wood. 
+2,John Adams,(1797-1801),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTE1ODA0OTcxMjc3MzIxNzQx/john-adams-37967-1-402.jpg,Federalist,John Adams visited Shakespeare’s home in Stratford-upon-Avon with Thomas Jefferson before they hated each other’s guts. While there they chipped off a piece of one of Shakespeare’s chairs as a souvenir.
+3,Thomas Jefferson,(1801-1809),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-TJ100.jpg,Democratic-Republican,Vandalizing Shakespeare’s chair isn’t the only chair-related Jefferson trivia: he invented the swivel chair!
+4,James Madison,(1809-1817),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP04MAD.jpg,Democratic-Republican,Our smallest president stood at 5’4″ and weighed around 100 pounds. Aw!
+5,James Monroe,(1817-1825),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP05MON.jpg,Democratic-Republican,Due to his penchant for outdated Revolutionary War era dress Monroe’s nickname was “The Last Cocked Hat.”
+6,John Quincy Adams,(1825-1829),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP06ADA.jpg,Democratic-Republican,The son of our Jefferson-hating second president John Quincy Adams was known for skinny dipping in the Potomac River every morning. A reporter took advantage of this information and sat on his clothes until he would grant her an interview.
+7,Andrew Jackson,(1829-1837),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP07JAC.jpg,Democrat,Jackson had a thing for taking it outside. He was involved in an estimated 100 duels, usually because someone said something negative about his wife.
+8,Martin Van Buren,(1837-1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP08BUR-300x300.jpg,Democrat,Van Buren holds the title of the first president to be born in the U.S.
+9,William Henry Harrison,(1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP09WHH.jpg,Whig,Harrison gave the longest inauguration speech ever (8,445 words over 90 minutes) on a wet cold day in 1841. He fell ill soon thereafter and died 33 days into his presidency.
+10,John Tyler,(1841-1845),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP10JT.jpg,Whig,Everyone pretty much hated him. He was expelled from his own party during his presidency his entire cabinet (minus one person) resigned over his policies, and he was the first president who faced impeachment.
+11,James K. Polk,(1845-1849),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-C091PP11KP.jpg,Democrat,Every party has a pooper and that pooper was Polk. He banned booze, card playing and dancing from the White House.
+12,Zachary Taylor,(1849-1850),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP12ZT.jpg,Whig,While celebrating the Fourth of July on the grounds where the Washington Monument would later stand Taylor snacked on a bunch of cherries and washed it all down with iced milk (ew). Bacteria was present in either the cherries or the milk leading to his death a few days later.
+13,Millard Fillmore,(1850-1853),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP13MF.jpg,Whig,Fillmore married his school teacher (oo la la!). Other than that most historians don’t really have much to say about him. 
+14,Franklin Pierce,(1853-1857),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP14FP.jpg,Democrat,Another president most people don’t remember Pierce was pretty unpopular while in office leading to his own party refusing to re-nominate him. His reply to being cast out: “There is nothing left to do but get drunk.“ His penchant for the hooch might explain his alleged arrest for running over an old lady with his horse.
+15,James Buchanan,(1857-1861),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP15JB.jpg,Democrat,Buchanan holds the record of being the only bachelor to be president although he may not have been truly single.
+16,Abraham Lincoln,(1861-1865),https://www.presidentialelection.com/wp-content/uploads/2017/03/LINCOLN208.jpg,Republican,In addition to being a tall drink of water Lincoln also serves tall drinks as a bartender. He was also a really good wrestler. He won all but one of approximately 300 matches. 
+17,Andrew Johnson,(1865-1869),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP17AJ.jpg,Democrat,The first president to be impeached. 
+18,Ulysses S. Grant,(1869-1877),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP18USG.jpg,Republican,Grant couldn’t stand the sight of blood — which is ironic considering his Civil War history.
+19,Rutherford B. Hayes,(1877-1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP19RBH.jpg,Republican,He was called “Granny Hayes” because he didn’t drink or smoke or gamble.
+20,James A. Garfield,(1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP20JG.jpg,Republican,Garfield was ambidextrous and could write in Greek with one hand and in Latin with the other at the same time!
+21,Chester Arthur,(1881-1885),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPAUTHUR.jpg,Republican,Arthur wanted the White House completely redecorated but needed money to pay for all the new furniture. His solution: sell off 24 wagon loads of historical relics and including a pair of Lincoln’s pants and one of John Quincy Adams’ hats.
+22,Grover Cleveland,(1885-1889),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,Democrat,Upon the death of his law partner Cleveland became the legal guardian to his friend’s 11-year-old orphaned daughter. 	Ten years later they were married at the White House making her the youngest First Lady ever at the age of 21 and making him the Woody Allen of the 19th century.
+23,Benjamin Harrison,(1889-1893),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARRISON.jpg,Republican,The grandson of President William Henry Harrison — he was called the “human iceberg” by some for how stiff he was with people.
+24,Grover Cleveland,(1893-1897),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,Democrat,Part of Cleveland’s jaw was made of vulcanized rubber as a result of a secret surgery on a friend’s yacht.
+25,William McKinley,(1897-1901),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPMCKINLEY.jpg,Republican,McKinley considered carnations his good luck charm and wore them everywhere.
+26,Theodore Roosevelt,(1901-1909),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTROOSEVELT.jpg,Republican,In short –the dude was pretty great and worthy of having said greatness commemorated. A toy maker did just that by producing “Teddy Bears” in his honor — after news got out that Roosevelt refused to shoot a bear cub on a hunting trip.
+27,William Howard Taft,(1909-1913),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTAFT.jpg,Republican,Taft is most known for his waist line and supposedly getting stuck in a bathtub (historians say this didn’t really happen) but what people don’t talk about enough is his stuffed animal.
+28,Woodrow Wilson,(1913-1921),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPWILSON.jpg,Democrat,In 1919 — incredible stress led to Wilson experiencing a series of strokes. He was left partially paralyzed and almost blind but stayed in office until 1921.
+29,Warren G. Harding,(1921-1923),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARDING.jpg,Republican,He was a cheater cheater pumpkin eater.
+30,Calvin Coolidge,(1923-1929),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCOOLIDGE.jpg,Republican,Coolidge had a morning ritual of having someone rub Vaseline on his head while he ate breakfast.
+31,Herbert Hoover,(1929-1933),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHOOVER.jpg,Republican,Rumor has it that Hoover requested his servants be “invisible.” Their choices: jump into closets to hide when Hoover entered a room or be fired.
+32,Franklin D. Roosevelt,(1933-1945),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPROOSEVELT.jpg,Democrat,FDR was really afraid of the number 13 and refused to have dinner with that number of people or leave for a trip on the 13th of any month. 
+33,Harry S. Truman,(1945-1953),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTRUMAN.jpg,Democrat,He met his wife Bess in Sunday school when he was six. Talk about locking it down!
+34,Dwight D. Eisenhower,(1953-1961),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPEISENHOWER.jpg,Republican,Ike changed the name of FDR’s presidential Maryland retreat from Shangri-la to Camp David. His reason: Shangri-la was “just a little too fancy for a Kansas farm boy.”
+35,John F. Kennedy,(1961-1963),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPKENNEDY.jpg,Democrat,JFK received $1 million on his 21st birthday (all nine brothers and sisters got the same) but that generosity did not extend to the Harvard recommendation letter his father wrote for him.
+36,Lyndon B. Johnson,(1963-1969),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPJOHNSON.jpg,Democrat,Enlisted in the military during WWII.
+37,Richard Nixon,(1969-1974),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPNIXON.jpg,Republican,Nixon loved to bowl so much that he had a one-lane alley put in the basement of the White House.
+38,Gerald Ford,(1974-1977),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPFORD.jpg,Republican,Two different assassins tried to take Ford’s life over a span of 17 days. Both were women.
+39,Jimmy Carter,(1977-1981),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCARTER.jpg,Democrat,Carter appeared in an unlikely publication: Playboy. And he got a lot of grief for it because of the following remarks: “I’ve looked on a lot of women with lust. I’ve committed adultery in my heart many times."
+40,Ronald Reagan,(1981-1989),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPREAGAN.jpg,Republican,Reagan regularly consulted with an astrologer — Joan Quigley —before making decisions and scheduling big events.
+41,George H. Bush,(1989-1993),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHWBUSH.jpg,Republican,Bush inspired a Japanese word “Bushusuru” which means “to do the Bush thing.” What thing you ask? Vomiting in public as Bush did all over the Japanese Prime Minister in 1992.
+42,Bill Clinton,(1993-2001),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP42CLINTON.jpg,Democrat,Bill has two Grammys (one for Best Spoken Word Album and another for Best Spoken Word Album for Children). Future EGOT?
+43,George W. Bush,(2001-2009),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP43BUSH.jpg,Republican,W. was his high school’s head cheerleader.
+44,Barack Obama,(2009-2017),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP44OBAMA.jpg,Democrat,His experience working at a Baskin-Robbins as a teen has made him hate ice cream.
+45,Donald Trump,(2017- ),https://petapixel.com/assets/uploads/2017/01/Donald_Trump_official_portraitt.jpg,Republican,Before entering politics he was a businessman and television personality.

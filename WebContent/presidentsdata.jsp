@@ -23,13 +23,16 @@
       <img src ="${currentPresident.image}" class ="picture">
     <h1>US Presidents</h1>
     <h3>${currentPresident.name}</h3>
+    <h3>${currentPresident.party}</h3>
     <h3>${currentPresident.termDate}</h3>
     <p>${currentPresident.factoid}</p>
   	<br>
   	<form action="president.do" method="GET">
-<input type="text" name="selection"> </input>
-<input type="submit" name="next" value="Next">NEXT</input>
-<input type="submit" name="previous" value="Previous">PREVIOUS</input>
+
+Enter a Term Number (1-45)<input type="text" name="selection"></input>
+<input type="submit" name="submit" value="Submit"></input>
+<input type="submit" name="next" value="Next President"></input>
+<input type="submit" name="previous" value="Previous President"></input>
 </form>
   </body>
 </html>
