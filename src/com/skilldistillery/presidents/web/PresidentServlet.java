@@ -22,7 +22,6 @@ public class PresidentServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-//		int selection = Integer.parseInt(request.getParameter("selection"));
 		
 		if ((isNotNullOrEmpty(request.getParameter("selection")))  && (Integer.parseInt(request.getParameter("selection")) >= 0) && (Integer.parseInt(request.getParameter("selection")) <= 45) ) {
 			i = Integer.parseInt(request.getParameter("selection"));
