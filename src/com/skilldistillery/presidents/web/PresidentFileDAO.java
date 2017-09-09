@@ -27,6 +27,7 @@ public class PresidentFileDAO implements PresidentDAO {
 
 //PresidentOBJ(String party, String name, String image, String factoid, int termNum) {
 	private void loadPresidentsFromFile() {
+		System.out.println("Entering loadPresidentsFile()");
 		// Retrieve an input stream from the servlet context
 		// rather than directly from the file system
 		InputStream is = servletContext.getResourceAsStream(filename);
@@ -45,6 +46,8 @@ public class PresidentFileDAO implements PresidentDAO {
 		} catch (Exception e) {
 			System.err.println(e);
 		}
+		System.out.println("Exiting loadPresidentsFile()");
+		
 	}
 	
 	

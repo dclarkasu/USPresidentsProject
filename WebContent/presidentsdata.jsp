@@ -7,13 +7,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="stylesheet" href="stylesheet.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Interesting Facts About Presidents</title>
 </head>
 <body>
-
-<h1>something in the body</h1>
-
-
-</body>
+    <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+    <div class ="main">
+      <img src ="${currentPresident.image}" class ="picture">
+    <h1>US Presidents</h1>
+    <h3>${currentPresident.name}</h3>
+    <h3>${currentPresident.termDate}</h3>
+    <p>${currentPresident.factoid}</p>
+  	<br>
+  	<form action="president.do" method="GET">
+<input type="text" name="selection"> </input>
+<input type="submit" name="next" value="Next">NEXT</input>
+<input type="submit" name="previous" value="Previous">PREVIOUS</input>
+</form>
+  </body>
 </html>
