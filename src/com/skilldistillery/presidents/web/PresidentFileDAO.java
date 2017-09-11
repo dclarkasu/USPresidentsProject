@@ -17,15 +17,16 @@ public class PresidentFileDAO implements PresidentDAO {
 	private static final String filename = "WEB-INF/presidentsdata.txt";
 	private ServletContext servletContext;
 	private List<PresidentOBJ> presidents;
+	private List<PresidentOBJ> current;
 	private Map<Integer, PresidentOBJ> mapPresident = new HashMap<>();
 	
 	public PresidentFileDAO(ServletContext context) {
 		servletContext = context;
 		presidents = new ArrayList<>();
 		loadPresidentsFromFile();
+		current = presidents;
 	}
 
-//PresidentOBJ(String party, String name, String image, String factoid, int termNum) {
 	private void loadPresidentsFromFile() {
 		System.out.println("Entering loadPresidentsFile()");
 		// Retrieve an input stream from the servlet context
@@ -68,10 +69,25 @@ public class PresidentFileDAO implements PresidentDAO {
 		return presidents;
 	}
 
-	@Override
-	public List<PresidentOBJ> getFilterList(String party) {
-		//COMEBACK TO IT LATER
-		return null;
+	   @Override
+	    public List<PresidentOBJ> getFilterList(String party) {
+	        List<PresidentOBJ> answer = new ArrayList<>();
+	        party = party.toLowerCase();
+	        for (int i = 0; i < presidents.size(); i++) {
+	            String theParty = presidents.get(i).getParty().toLowerCase();
+	            if (theParty.contains(party)) {
+	                answer.add(presidents.get(i));
+	            }
+	        }
+	        return answer;
+	    }
+
+	public List<PresidentOBJ> getCurrent() {
+		return current;
+	}
+
+	public void setCurrent(List<PresidentOBJ> current) {
+		this.current = current;
 	}
 
 }

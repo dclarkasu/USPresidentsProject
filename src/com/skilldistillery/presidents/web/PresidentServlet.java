@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/PresidentServlet")
 public class PresidentServlet extends HttpServlet {
-	private PresidentDAO presidentDAO;
+	private PresidentFileDAO presidentDAO;
 	private int i = 1;
 
 	public void init() throws ServletException {
@@ -23,32 +23,53 @@ public class PresidentServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		try {
-			if ((isNotNullOrEmpty(request.getParameter("selection")))
-					&& (Integer.parseInt(request.getParameter("selection")) >= 0)
-					&& (Integer.parseInt(request.getParameter("selection")) <= 45)) {
-				i = Integer.parseInt(request.getParameter("selection"));
-			} 
-			else if (isNotNullOrEmpty(request.getParameter("next"))) {
-				if (i == presidentDAO.getFullList().size()) {
-					i = 1;
-				} 
-				else {
-					++i;
-				}
-			} 
-			else if (isNotNullOrEmpty(request.getParameter("previous"))) {
-				if (i == 1) {
-					i = presidentDAO.getFullList().size();
-				} else {
-					--i;
-				}
-			}
-		} 
+            if ((isNotNullOrEmpty(request.getParameter("selection")))){
+                String radioButton = request.getParameter("search");
+                String userInput = request.getParameter("selection");
+                switch(radioButton) {
+                case "party":
+                    presidentDAO.setCurrent(presidentDAO.getFilterList(userInput));
+                    if (presidentDAO.getCurrent().size() == 0) {
+                        presidentDAO.setCurrent(presidentDAO.getFullList());
+                    }
+                    i = 1;
+                    break;
+                case "term":
+                    presidentDAO.setCurrent(presidentDAO.getFullList());
+                    i = Integer.parseInt(userInput);
+                    if (i <= 0 || i > (presidentDAO.getFullList().size())) {
+                        i = 1;
+                    }
+                    break;
+                default:
+                    i = 1;
+                }
+            } 
+            else if ((isNotNullOrEmpty(request.getParameter("full")))) {
+                presidentDAO.setCurrent(presidentDAO.getFullList());
+                i = 1;
+            }
+            else if (isNotNullOrEmpty(request.getParameter("next"))) {
+                if (i == presidentDAO.getCurrent().size()) {
+                    i = 1;
+                } 
+                else {
+                    ++i;
+                }
+            } 
+            else if (isNotNullOrEmpty(request.getParameter("previous"))) {
+                if (i == 1) {
+                    i = presidentDAO.getCurrent().size();
+                } else {
+                    --i;
+                }
+            }
+        }
 		catch (Exception e) {
 			i = 1;
 		}
 
-		request.setAttribute("currentPresident", presidentDAO.getFullList().get(i - 1));
+		request.setAttribute("currentPresident", presidentDAO.getCurrent().get(i - 1));
 		request.getRequestDispatcher("/presidentsdata.jsp").forward(request, response); // jsp
 
 	}
