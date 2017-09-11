@@ -10,12 +10,16 @@
 <link rel="stylesheet" href="stylesheet.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Interesting Facts About Presidents</title>
+<audio controls autoplay>
+  <source src="http://www.ringelkater.de/Sounds/2geraeusche_tiere/adler.wav
+" type="audio/wav">
+</audio>
 </head>
 <body>
     <div class="nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Group</a></li>
+          <li><a href="home.do">Home</a></li>
+          <li><a href="Group.html">Group</a></li>
         </ul>
        </div>
         <br><br><br><br><br>

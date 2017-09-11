@@ -12,29 +12,30 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/PresidentServlet")
 public class PresidentServlet extends HttpServlet {
-	private PresidentFileDAO presidentDAO;
-	private int i = 1;
+    private PresidentFileDAO presidentDAO;
+    private int i = 1;
 
-	public void init() throws ServletException {
-		presidentDAO = new PresidentFileDAO(getServletContext());
-	}
+    public void init() throws ServletException { //RUNS AUTOMATICALLY
+        presidentDAO = new PresidentFileDAO(getServletContext());
+    }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
-		try {
-            if ((isNotNullOrEmpty(request.getParameter("selection")))){
+        try {
+            if ((isNotNullOrEmpty(request.getParameter("selection")))){  //CHECK IF NOT NULL & BUTTON SELECTION
                 String radioButton = request.getParameter("search");
                 String userInput = request.getParameter("selection");
-                switch(radioButton) {
-                case "party":
+                
+                switch(radioButton) {   //CHECK WHICH BUTTON USER SELECTED
+                case "party":   //USER SELECTED PARTY
                     presidentDAO.setCurrent(presidentDAO.getFilterList(userInput));
                     if (presidentDAO.getCurrent().size() == 0) {
                         presidentDAO.setCurrent(presidentDAO.getFullList());
                     }
                     i = 1;
                     break;
-                case "term":
+                case "term":   //USER SELECTED TERM BUTTON
                     presidentDAO.setCurrent(presidentDAO.getFullList());
                     i = Integer.parseInt(userInput);
                     if (i <= 0 || i > (presidentDAO.getFullList().size())) {
@@ -45,11 +46,11 @@ public class PresidentServlet extends HttpServlet {
                     i = 1;
                 }
             } 
-            else if ((isNotNullOrEmpty(request.getParameter("full")))) {
+            else if ((isNotNullOrEmpty(request.getParameter("full")))) {  //RESET FULL LIST HERE WHEN USER SELECTS BUTTON
                 presidentDAO.setCurrent(presidentDAO.getFullList());
                 i = 1;
             }
-            else if (isNotNullOrEmpty(request.getParameter("next"))) {
+            else if (isNotNullOrEmpty(request.getParameter("next"))) {  //USER SELECTED NEXT BUTTON
                 if (i == presidentDAO.getCurrent().size()) {
                     i = 1;
                 } 
@@ -57,7 +58,7 @@ public class PresidentServlet extends HttpServlet {
                     ++i;
                 }
             } 
-            else if (isNotNullOrEmpty(request.getParameter("previous"))) {
+            else if (isNotNullOrEmpty(request.getParameter("previous"))) {  //USER SELECTED PREVIOUS BUTTON
                 if (i == 1) {
                     i = presidentDAO.getCurrent().size();
                 } else {
@@ -65,24 +66,16 @@ public class PresidentServlet extends HttpServlet {
                 }
             }
         }
-		catch (Exception e) {
-			i = 1;
-		}
+        catch (Exception e) { //IF USER DID NOT PUT IN AN INTEGER, IT WILL SHOW GEORGE WASHINGTON
+            i = 1;
+        }
 
-		request.setAttribute("currentPresident", presidentDAO.getCurrent().get(i - 1));
-		request.getRequestDispatcher("/presidentsdata.jsp").forward(request, response); // jsp
+        request.setAttribute("currentPresident", presidentDAO.getCurrent().get(i - 1)); // TELL JSP, THE WORD "CURRENT PRESIDENT, REFERS TO THE SECOND ARG
+        request.getRequestDispatcher("/presidentsdata.jsp").forward(request, response); // SENDS INFO TO JSP
 
-	}
+    }
 
-	private boolean isNotNullOrEmpty(String op) {
-		return op != null && op.length() > 0;
-	}
-
-	// protected void doPost(HttpServletRequest request, HttpServletResponse
-	// response)
-	// throws ServletException, IOException {
-	// doGet(request, response);
-	//
-	// }
-
+    private boolean isNotNullOrEmpty(String op) {  //METHOD THAT CHECKS IF USER INPUT IS NULL
+        return op != null && op.length() > 0;
+    }
 }
